@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the
+bug that was introduced?
+
+    This reduced information overload.  By cutting things down to just
+    what changed it was easier to see the changes
+
+How could having easy access to the entire history of a file make you a
+more efficient programmer in the long term?
+
+    Roll back stupid changes.
+    Find out who made a change that seem to be problematic.
+
+What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically
+saved, like Google docs does?
+
+    Manual saves cuts down the number of state changes one might have to look at.
+    Supposedly each save change reflects a specific completed though or set of thoughts
+    and are hopefully or likely working code.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each
+file separately?
+
+    Again Context matters with programs your various commits hopefully reflect a state
+    of files that should work ok together.  Google only care about the state of a
+    single file.  And it is gathering the text / click streams any way.  So they keep
+    it.
+
+How can you use the commands git log and git diff to view the history of
+files?
+
+    git log shows a summary of all of the changes and provide a uniquie id for each of 
+    these changes.  git diff will allow me to see the specific changes that have been
+    made between two different versions of the files.  (These changes may be in more
+    than one file.)
+
+How might using version control make you more confident to make changes
+that could break something?
+
+    If I can successfully roll back it is easier to have the courage to try something
+    even something that makes substantial changes.  If it turns out to be a dead end. 
+    Then at least we can get back to something that is working at least as well as
+    things were working before the attempted changes.
+
+Now that you have your workspace set up, what do you want to try using
+Git for?
+
+    Fill in your answer here
