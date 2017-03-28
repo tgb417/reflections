@@ -28,6 +28,8 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	You get the code that wants to be included from both branches into the final files.
+	You end up with only one branch.  (In our case the Master Branch) The diagrams show the divergance of code from Master and the re-integration of code back into another branch.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
