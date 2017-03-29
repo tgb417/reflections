@@ -9,29 +9,33 @@ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
     For the same kinds of reasons you want to do commit manually.  In this case
-    you may not be ready for the updates comming from github.
+    you may not be ready for the updates coming from github.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
     Fork is a copy of a repository that happens on a site like GitHub between accounts
     Clone is a copy from repository to another regardless of local or remote
-    Branch is the creation of more than one set of files withing a repository
+    Branch is the creation of more than one set of files within a repository
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    It makes merging eaiser for the git system.  Particularly if you are disconnected
+    It makes merging easier for the git system.  Particularly if you are disconnected
     from the network.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
     Send emails maybe zip them up if there are a lot of files.  This git method is
-    easier if multiple back and forths are needed or if multiple participants are going
-    to contribute.  If it is a one time then email is easier.
+    easier if multiple back and forth operations are needed or if multiple participants
+    are going to contribute.  If it is a one time then email is easier.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I mean the real time to use Branches and github is when you have groups of 
+    individuals who have to cooperate and agree on changes.  This provides a mechanism 
+    all be it a bit cumbersome to hold a number of sets of code in parallel  and work
+    through appropriate merges.
+
