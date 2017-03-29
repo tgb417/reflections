@@ -21,7 +21,8 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It makes merging eaiser for the git system.  Particularly if you are disconnected
+    from the network.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
